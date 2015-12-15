@@ -29,7 +29,7 @@ function cnp_wp_nav_menu_default_args( $args ) {
 
 	$args['fallback_cb'] = FALSE;
 	$args['container'] = 'nav';
-	$args['container_class'] = sanitize_title( $args['menu'] );
+	$args['container_class'] = sanitize_title( $args['menu'] ) . ' ' . $args['container_class'];
 	$args['items_wrap'] = PHP_EOL.'%3$s';
 
 	if ( !isset( $args['strip_li'] ) ) {

@@ -3,7 +3,7 @@
     "description": "A module for filtering WordPress nav menu args & output according to our usual needs.",
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/Clark-Nikdel-Powell/Module-WP-Nav-Filters",
+    "homepage": "https://github.com/Clark-Nikdel-Powell/WP-Nav-Filters",
     "authors": [
         {
             "name": "Josh Nederveld",
